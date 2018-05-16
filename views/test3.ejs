@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>公交报站实验</title>
+    <link rel="stylesheet" href="css/test3.css">
+</head>
+
+<body>
+    <div>
+        <section>
+            <div class="dot" id="dot1"></div>
+            <div class="dot" id="dot2"></div>
+            <div class="dot" id="dot3"></div>
+        </section>
+        <section class="device" id="device1">
+            <p>巢穴（睡觉处）</p>
+            <p><span>设备名称:</span><span class="deviceName"><%= one.deviceName %></span></p>
+            <p><span>设备MAC地址:</span><span class="deviceMacAddr"><%= one.deviceMacAddr %></span></p>
+            <p><span>设备RSSI值:</span><span class="RSSIValue"><%= one.RSSIValue %></span></p>
+        </section>
+        <section class="device" id="device2">
+            <p>河边（喝水处）</p>
+            <p><span>设备名称:</span><span class="deviceName"><%= two.deviceName %></span></p>
+            <p><span>设备MAC地址:</span><span class="deviceMacAddr"><%= two.deviceMacAddr %></span></p>
+            <p><span>设备RSSI值:</span><span class="RSSIValue"><%= two.RSSIValue %></span></p>
+        </section>
+        <section class="device" id="device3">
+            <p>草原（吃饭处）</p>
+            <p><span>设备名称:</span><span class="deviceName"><%= three.deviceName %></span></p>
+            <p><span>设备MAC地址:</span><span class="deviceMacAddr"><%= three.deviceMacAddr %></span></p>
+            <p><span>设备RSSI值:</span><span class="RSSIValue"><%= three.RSSIValue %></span></p>
+        </section>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/test3.js"></script>
+</body>
+
+</html>

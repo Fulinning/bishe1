@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>公交报站实验</title>
+    <link rel="stylesheet" href="test2.css">
+</head>
+
+<body>
+    <div>
+        <section class="road-area">
+            <div id="road"></div>
+            <div class="dot" id="dot1"></div>
+            <div class="dot" id="dot2"></div>
+            <div class="dot" id="dot3"></div>
+            <div id="bus"></div>
+        </section>
+        <section class="device" id="device1">
+            <p>苜蓿园</p>
+            <p><span>设备名称:</span><span id="deviceName"><%= deviceName %></span></p>
+            <p><span>设备MAC地址:</span><span id="deviceMacAddr"><%= deviceMacAddr %></span></p>
+            <p><span>设备RSSI值:</span><span id="RSSIValue"><%= RSSIValue %></span></p>
+        </section>
+        <section class="device" id="device2">
+            <p>下马坊</p>
+            <p><span>设备名称:</span><span id="deviceName"><%= deviceName %></span></p>
+            <p><span>设备MAC地址:</span><span id="deviceMacAddr"><%= deviceMacAddr %></span></p>
+            <p><span>设备RSSI值:</span><span id="RSSIValue"><%= RSSIValue %></span></p>
+        </section>
+        <section class="device" id="device3">
+            <p>孝陵卫</p>
+            <p><span>设备名称:</span><span id="deviceName"><%= deviceName %></span></p>
+            <p><span>设备MAC地址:</span><span id="deviceMacAddr"><%= deviceMacAddr %></span></p>
+            <p><span>设备RSSI值:</span><span id="RSSIValue"><%= RSSIValue %></span></p>
+        </section>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/test2.js"></script>
+</body>
+
+</html>
